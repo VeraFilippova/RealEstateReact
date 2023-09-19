@@ -1,0 +1,40 @@
+.menu-block{
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+.right-menu{
+  display: flex;
+  
+}
+
+
+.right-menu ul{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap:20px;
+ font-weight: 500;
+
+ 
+}
+
+.left-menu button{
+  border: 1px solid $accent;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.icon-menu{
+  width: 20px;
+  height: 20px;
+  fill: $dark;
+}
+
+@media screen  and (max-width:999px) {
+  .menu-block{
+    display: none;
+  }
+  }

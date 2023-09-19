@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+//Base 
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+// @import './base/mixin';
+
+//Blocks
+
+@import './block/realestatelist.module';
+@import './block/itemFloor';
+@import './block/allRealEstateList';
+@import './block/header.scss';
+@import './block/nav-icon.scss';
+@import './block/menu.scss';
+@import './block/mains.scss';
+@import './block/modal.scss';
+

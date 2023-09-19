@@ -1,0 +1,165 @@
+.header-desktop-open{
+  display: block;
+} 
+.header-desktop-close{
+  display: none;
+}
+
+.header-marking{
+  padding: 20px 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfdddd90;
+}
+.header-logo{
+  width: 200px;
+}
+.header-svg{
+  width: 20px;
+  height: 20px;
+  fill: $accent;
+}
+
+.header-location{
+  display: flex;
+  gap: 10px;
+  color: $accent;
+}
+.header-tel{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.header-contactInfo a{
+  color: $dark;
+  font-size: 26px;
+  font-weight: 500;
+  
+}
+
+.header-contactInfo{
+  display: flex;
+  gap: 15px;
+ 
+}
+
+.header-workmode{
+  display: flex;
+  font-size: 13px;
+  text-align: end;
+  align-items: end;
+  
+}
+
+.header-social{
+  display: flex;
+  gap:10px
+}
+
+.social-border{
+  padding: 10px;
+  border:1px solid $muted;
+  border-radius: 10px;
+  &:hover{
+    cursor: pointer;
+    background: $muted ;
+  }
+}
+
+.social-tg{
+  width: 20px;
+  height: 20px;
+  fill: #25a2e0;
+}
+.social-vk{
+  width: 20px;
+  height: 20px;
+  fill: #2787f5;
+}
+
+.header-btn{
+  color: $accent;
+  background: $light;
+  padding: 15px  ;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+//mobile nav
+
+.header-mobile-nav{
+  display: none;
+  @media screen and (max-width:999px){
+    display:block;
+  }
+}
+@media screen  and (max-width:999px) {
+.header-social, .header-location{
+  display: none;
+}
+}
+@media screen  and (max-width:720px) {
+  .header-contactInfo, .header-btn{
+    display: none;
+  }
+    
+  }
+
+  .header-nav-mobile-open{
+    // display: block;
+  position: fixed;
+  background-color: #e2e2e2 ;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  }
+
+  .header-nav-mobile-close{
+    display: none;
+  }
+
+
+
+  .nav-mobile{
+  
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-nav-mobile-open .nav-icon-btn {
+    position: fixed;
+    z-index: 11;
+    right: 30px;
+    top:10px
+    
+  }
+
+  .nav-mobile .header-contactInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-mobile .header-tel{
+    display: none;
+  }
+
+  .header-nav-mobile-open  .header-btn{
+    display: flex;
+  }
+
+  .header-nav-mobile-open .header-social{
+    display: flex;
+  }
+
+
+
+
+
+

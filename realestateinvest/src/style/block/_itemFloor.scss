@@ -1,0 +1,28 @@
+.floor-border{
+  display: inline-block;
+  border: 1px solid $dark;
+  align-items: center;
+
+}
+.floor-border img{
+  width: 200px;
+  height: 200px;
+}
+      .addres-decor{
+        font-weight:400 ;
+      }
+     .price-decor{
+      font-size: 20px;
+      font-weight: 600;
+     }
+
+     .btn-list{
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid $accent;
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: 500;
+      color: $accent ;
+      text-transform: uppercase;
+     }

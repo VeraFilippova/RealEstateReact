@@ -1,0 +1,46 @@
+
+
+.main-bcg{
+  padding: 30px 40px;
+  background-image: url(./../../assets/main/sale.png);
+  width: 100%;
+  min-height: 464px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.main-bcg h1{
+  margin-top: 50px;
+  font-size: 60px;
+}
+
+.main-nav ul{
+ position: absolute;
+ width: 95%;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: $white;
+ 
+}
+.main-nav > ul li{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px 35px;
+  background-color: rgba(237, 241, 244, 0.475);
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+  &:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+    transform: scale(1.1);
+ 
+
+  }
+}
+
+.buy, .cash, .room, .mortgage, .grade, .low{
+  width: 18px;
+  height: 18px;
+}
